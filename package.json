@@ -3,7 +3,7 @@
   "version": "0.1.0",
   "private": true,
   "scripts": {
-    "start": "parcel index.html -p 3030"
+    "start": "parcel ./public/index.html -p 3030"
   },
   "dependencies": {
     "axios": "^0.18.0",
@@ -12,6 +12,7 @@
     "react-scripts": "2.1.8"
   },
   "devDependencies": {
+    "babel-core": "^6.26.3",
     "babel-preset-env": "^1.7.0",
     "babel-preset-react": "^6.24.1",
     "eslint-config-prettier": "^4.1.0",
